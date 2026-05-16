@@ -18,12 +18,41 @@
       top: 0;
       z-index: 100;
       width: 100%;
-      line-height: 0;
+      height: 45vh;
+      overflow: hidden;
     }
-    .map-img {
+    .map-scroll {
       width: 100%;
+      height: 100%;
+      overflow: auto;
+      touch-action: pan-x pan-y;
+      cursor: grab;
+    }
+    .map-scroll:active { cursor: grabbing; }
+    .map-img {
       display: block;
     }
+    .zoom-controls {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      display: flex;
+      gap: 4px;
+      z-index: 101;
+    }
+    .zoom-controls button {
+      width: 32px;
+      height: 32px;
+      font-size: 1.2em;
+      line-height: 1;
+      border: none;
+      border-radius: 4px;
+      background: rgba(255,255,255,0.85);
+      color: #222;
+      cursor: pointer;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+    }
+    .zoom-controls button:hover { background: #fff; }
     .content {
       max-width: 900px;
       margin: 0 auto;
@@ -74,10 +103,45 @@
 </head>
 <body>
   <div class="map-wrap">
-    <img class="map-img"
-         src="https://images.squarespace-cdn.com/content/v1/6176f92ee1e42b674cf123c7/143728f4-440c-47e9-bdd3-ef7a939975a6/SOAK2026+Event+Map.jpg"
-         alt="SOAK 2026 Event Map">
+    <div class="zoom-controls">
+      <button id="zoom-in"  aria-label="Zoom in">+</button>
+      <button id="zoom-out" aria-label="Zoom out">−</button>
+    </div>
+    <div class="map-scroll" id="map-scroll">
+      <img class="map-img" id="map-img"
+           src="https://images.squarespace-cdn.com/content/v1/6176f92ee1e42b674cf123c7/143728f4-440c-47e9-bdd3-ef7a939975a6/SOAK2026+Event+Map.jpg"
+           alt="SOAK 2026 Event Map">
+    </div>
   </div>
+  <script>
+    (function () {
+      var img = document.getElementById('map-img');
+      var container = document.getElementById('map-scroll');
+      var zoom = 1;
+      var baseScale;
+
+      function applyScale() {
+        var s = baseScale * zoom;
+        img.style.width  = Math.round(img.naturalWidth  * s) + 'px';
+        img.style.height = Math.round(img.naturalHeight * s) + 'px';
+      }
+
+      img.addEventListener('load', function () {
+        baseScale = container.clientHeight / img.naturalHeight;
+        applyScale();
+      });
+      if (img.complete) img.dispatchEvent(new Event('load'));
+
+      document.getElementById('zoom-in').addEventListener('click', function () {
+        zoom = Math.min(+(zoom + 0.25).toFixed(2), 6);
+        applyScale();
+      });
+      document.getElementById('zoom-out').addEventListener('click', function () {
+        zoom = Math.max(+(zoom - 0.25).toFixed(2), 0.25);
+        applyScale();
+      });
+    })();
+  </script>
 
   <div class="content">
   <h1>SOAK 2026 Map Listings</h1>
