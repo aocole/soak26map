@@ -1,0 +1,143 @@
+THEME CAMPS — Sorted by Map Designator
+========================================
+
+E1  — Tug McOck's Teeny Tiny Leprechaun Pub
+E2  — Sour Puss
+E3  — The Haunt
+E4  — Lil' HellBake
+E5  — Camp of Cool Kids
+E6  — The Shrubbery
+E7  — Pickledeon
+E8  — Cosmo Soulmate Trading Outlet
+E9  — EX-FILES
+E10 — Pancake Playhouse
+E11 — Tiny Tramp Espresso-Tinis
+E12 — Dick Shaped Foods
+E13 — OnlyFeet
+E14 — Band Camp
+E15 — The Self Care Teddy Bear Lair
+E16 — Twilight Lounge
+E17 — 1-800-Bug-Camp
+E18 — The Garden of Otherwordly Delights
+E19 — Krampusberg
+
+F1  — Plunderground
+F2  — KID BAR
+F3  — Puppet Camp
+F4  — Recess Industrial Complex
+F5  — Chameleon Camp
+F6  — Snacks N Snuggles
+F7  — Warm Snuggles
+F8  — Cult of the Peach
+F9  — OverFuckinRated
+F10 — Wild Things
+F11 — Disco Jungle (Formerly Neon Jungle)
+F12 — There U Glow
+F13 — Frizz
+F14 — Hippocampe
+F15 — Glowdoe Drive
+F16 — Possitopia
+F17 — The Wandering Wardrobe
+F18 — The Holey Pie Co.
+F19 — Bobablivion
+F20 — Créplopany
+F21 — Caffeinated Catalyst
+F22 — Watts for Lunch
+F23 — Fire Safety Camp
+F24 — Dr. Bev's Clinic
+F25 — Bean Here Now
+F26 — Camp Monkey Business
+
+L1  — Synthesthesia
+L2  — Dusty Bunnies
+L3  — FIRESTARTERS
+
+M1  — Crop Tops & Croissants
+M2  — The Sensory Sanctuary
+M3  — The Black Rock Center for Unlearning
+M4  — Lingerie Lounge
+M5  — Mad Hatter's HIGH Tea
+M6  — Flower Bower
+M7  — Aucupouri Teahouse
+M8  — Astro Shack Java JoINt
+M9  — Camp Baggage Check
+M10 — Pampered Camper
+M11 — Camp Miss-Behaving
+M12 — Polyjamorous
+M13 — Grappler's Grotto
+M14 — Interdimensional Snack
+M15 — BRC Retirement Community
+M16 — The Adventurer's Respite
+M17 — OTD
+M18 — Work Adjacent Camp (WAC)
+M19 — CBGB Camp Biscuits, Gravy and Bacon
+M20 — Gated Community
+M21 — Pedal Cab Crew
+M22 — Art of Doing Nothing
+M23 — Music for Headbutting Art Support
+M24 — Tautology
+M25 — Rear Entrance Support Camp
+
+N1  — The Pussy Perch
+N2  — OnlyFries
+N3  — Black Hole West
+N4  — The Low Bar
+N5  — S*M*A*S*H (Small Matters & Serious Hearings)
+N6  — Teenie Weenie Art Tent
+
+R1  — Oregon Snail Trail
+R2  — Noah's Nuzzle Nook
+R3  — Celestials
+R4  — Coast Guard
+R5  — Kinky Fucking Camp
+R6  — Summer Camp Wannakiki
+R7  — Spam Camp
+R8  — Fresh Hot Noods
+R9  — Quest Cult
+R10 — arrrg you kidding me?
+R11 — Absinthe Minded
+R12 — Undisclosed Location
+R13 — The man cave
+R14 — Second Rodeo
+R15 — Artists Paradise
+R16 — BILY (Because I Love You)
+R17 — The Pampered Pixie
+R18 — The Horny Unicorn
+R19 — Camp Foxfur
+
+U1  — Yaass Daddy!
+U2  — MBS Support Camp
+U3  — It's All Downhill From Here
+U4  — G.SPOT
+U5  — Prismatic Forest
+U6  — Cirque De Licious
+U7  — Universal Eggsperience
+U8  — Sex Positivity — SeXy at AnY SiZe
+U9  — MOIST
+U10 — Moonrock
+U11 — Luna Pavilion
+U12 — V;S;M (iron powder)
+U13 — Cosmic Chai
+U14 — Citadel of the Eternal Pastry
+U15 — Snack Shack
+U16 — Temple Support Camp
+U17 — Hang Loose
+U18 — Baby Behead & Breakfast
+U19 — KBUTT
+U20 — Ourburritoroom
+U21 — The Glory Hole — A Spectacular Boutique
+U22 — Blue Waffle
+U23 — ART BAR
+U24 — Camp FYFA
+
+Z1  — Gypsy Nebula Carnival
+Z2  — Penguins Bubble Bar
+Z3  — Elation Station
+Z4  — Strip 'N Taters
+Z5  — Hypnodrome
+Z6  — Camp Clusterfuck
+Z7  — HYSS
+Z8  — SPK 2.0
+Z9  — Cats in Space!
+Z10 — Church of Party
+Z11 — FryGuy Kitchen
