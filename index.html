@@ -8,19 +8,28 @@
     * { box-sizing: border-box; }
     body {
       font-family: Georgia, serif;
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 20px;
+      margin: 0;
+      padding: 0;
       color: #222;
       background: #fafaf8;
     }
-    h1 { font-size: 1.6em; margin-bottom: 0.2em; }
+    .map-wrap {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      width: 100%;
+      line-height: 0;
+    }
     .map-img {
       width: 100%;
       display: block;
-      margin: 20px 0;
-      border: 1px solid #ddd;
     }
+    .content {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1 { font-size: 1.6em; margin-bottom: 0.2em; }
     .links {
       margin: 1.5em 0;
       font-size: 0.9em;
@@ -64,11 +73,14 @@
   </style>
 </head>
 <body>
-  <h1>SOAK 2026 Map Listings</h1>
+  <div class="map-wrap">
+    <img class="map-img"
+         src="https://images.squarespace-cdn.com/content/v1/6176f92ee1e42b674cf123c7/143728f4-440c-47e9-bdd3-ef7a939975a6/SOAK2026+Event+Map.jpg"
+         alt="SOAK 2026 Event Map">
+  </div>
 
-  <img class="map-img"
-       src="https://images.squarespace-cdn.com/content/v1/6176f92ee1e42b674cf123c7/143728f4-440c-47e9-bdd3-ef7a939975a6/SOAK2026+Event+Map.jpg"
-       alt="SOAK 2026 Event Map">
+  <div class="content">
+  <h1>SOAK 2026 Map Listings</h1>
 
   <div class="links">
     <strong>Download:</strong>
@@ -358,5 +370,6 @@
 
   </div><!-- .listing -->
 
+  </div><!-- .content -->
 </body>
 </html>
